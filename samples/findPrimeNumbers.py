@@ -7,8 +7,9 @@ def is_prime(n):
             if n % i == 0:
                 status = False
     return status
-
-for n in range(1,101):
+smallNumber = int(input("Enter a number: "))  
+largeNumber = int(input("Enter a number: "))  
+for n in range(smallNumber,largeNumber):
     if is_prime(n):
         if n==97:
             print(n)
