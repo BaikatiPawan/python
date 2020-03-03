@@ -10,4 +10,4 @@ def char_Occurrence(str):
             dict[ch]=1
     return dict
 
-print(char_Occurrence("priyan   kaa"))
+print(char_Occurrence(input("Enter you string : ")))
